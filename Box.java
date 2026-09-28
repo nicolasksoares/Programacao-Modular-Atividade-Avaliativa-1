@@ -1,13 +1,13 @@
 public class Box {
    private int numeroBox;
-   private String tipoDeServico;
+   private Servico servico;
    private int capacidadeMax;
    public Box() {
    }
 
-   public Box(int numeroBox, String tipoDeServico, int capacidadeMax) {
+   public Box(int numeroBox, Servico servico, int capacidadeMax) {
     this.numeroBox = numeroBox;
-    this.tipoDeServico = tipoDeServico;
+    this.servico = servico;
     this.capacidadeMax = capacidadeMax;
    }
 
@@ -19,12 +19,12 @@ public class Box {
     this.numeroBox = numeroBox;
    }
 
-   public String getTipoDeServico() {
-    return tipoDeServico;
+   public Servico getServico() {
+    return servico;
    }
 
-   public void setTipoDeServico(String tipoDeServico) {
-    this.tipoDeServico = tipoDeServico;
+   public void setServico(Servico servico) {
+    this.servico = servico;
    }
 
    public int getCapacidadeMax() {
