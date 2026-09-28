@@ -44,5 +44,4 @@ public class Servico {
         this.categoria = categoria;
     }
     
-    
 }

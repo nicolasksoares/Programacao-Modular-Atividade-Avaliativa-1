@@ -43,7 +43,7 @@ public class OrdemDeServico {
         this.statusDaOrdem = statusDaOrdem;
     }
 
-    
+    public void CadastrarOrdemDeServico(String codigo, Cliente cliente, Veiculo veiculo, String statusDaOrdem){
 
-    
+    }
 }

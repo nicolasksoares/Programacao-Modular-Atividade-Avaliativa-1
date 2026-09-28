@@ -1,6 +1,6 @@
 public class Veiculo {
 
-    private String numeracaoDaplaca;
+    String numeracaoDaplaca;
     private String modeloDoVeiculo;
 
     public Veiculo(String numeracaoDaplaca, String modeloDoVeiculo) {
